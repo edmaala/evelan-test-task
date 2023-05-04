@@ -11,6 +11,10 @@ const MainLayout: React.FC<Props> = ({ children }) => {
           name='viewport'
           content='width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes'
         />
+        <meta
+          name='description'
+          content='Author: E. Maala; Page created as required by Evelan GmbH'
+        />
       </Head>
       <main className={classes.mainLayout}>{children}</main>
     </>
