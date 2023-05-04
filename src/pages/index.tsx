@@ -30,10 +30,6 @@ const Home: React.FC<Props> = ({ users, currentUserDataPage }) => {
 
   return (
     <>
-      <Head>
-        <title>User List | Evelan GmbH</title>
-      </Head>
-
       <Heading> User List </Heading>
 
       <MainLayout>
