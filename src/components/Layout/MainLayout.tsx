@@ -12,7 +12,7 @@ const MainLayout: React.FC<Props> = ({ children }) => {
           content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes'
         />
       </Head>
-      <main className={classes.mainLayout}>{children}</main>;
+      <main className={classes.mainLayout}>{children}</main>
     </>
   );
 };
