@@ -1,0 +1,16 @@
+.mainLayout {
+  width: 100%;
+  height: calc(100% - 5.6rem);
+  max-width: 1100px;
+  background-color: var(--white);
+  padding-bottom: 2rem;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .mainLayout {
+    height: calc(100% - 5.6rem - 1px);
+  }
+}
