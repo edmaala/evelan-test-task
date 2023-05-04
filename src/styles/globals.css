@@ -27,7 +27,7 @@ body {
 
 body {
   font-family: 'Inter', sans-serif;
-  background-image: url(../assets/email-pattern.png);
+  background-image: url('/email-pattern.png');
 }
 
 button {
