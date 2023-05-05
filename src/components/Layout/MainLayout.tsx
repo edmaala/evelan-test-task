@@ -18,7 +18,7 @@ const MainLayout: React.FC<Props> = ({ children }) => {
         <meta property='og:title' content='User List Social Media Preview' />
         <meta property='og:image' content='/email-pattern.png' />
         <meta name='twitter:card' content='summary' />
-        <meta name='twitter:image:src' content='/email-pattern.png' />
+        <meta property='twitter:image:src' content='/email-pattern.png' />
       </Head>
       <main className={classes.mainLayout}>{children}</main>
     </>
