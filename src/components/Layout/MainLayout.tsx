@@ -15,6 +15,8 @@ const MainLayout: React.FC<Props> = ({ children }) => {
           name='description'
           content='Author: E. Maala; Page created as required by Evelan GmbH'
         />
+        <meta property='og:image' content='/email-pattern.png' />
+        <meta name='twitter:card' content='summary' />
       </Head>
       <main className={classes.mainLayout}>{children}</main>
     </>
